@@ -1,4 +1,4 @@
-# Common Issues
+ # Common Issues
 
 This guide covers the most common problems and their solutions.
 
@@ -649,12 +649,11 @@ If your issue isn't listed here:
    - Vercel logs (if deployed)
 
 2. **Search GitHub Issues**:
-   - [Existing issues](https://github.com/yourusername/luna402/issues)
+   - [Existing issues](https://github.com/yourusername/Necrona/issues)
    - Someone may have solved it
 
 3. **Ask for help**:
-   - [Open an issue](https://github.com/yourusername/luna402/issues/new)
-   - [Join Discord](https://discord.gg/luna402)
+   - [Open an issue](https://github.com/yourusername/Necrona/issues/new)
    - Include error messages and logs
 
 4. **Read related docs**:
@@ -664,4 +663,5 @@ If your issue isn't listed here:
 
 ---
 
-**Still stuck?** [Open an issue](https://github.com/yourusername/luna402/issues) with detailed information and we'll help you out!
+**Still stuck?** [Open an issue](https://github.com/yourusername/Necrona/issues) with detailed information and we'll help you out!
+
