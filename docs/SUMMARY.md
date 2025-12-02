@@ -2,7 +2,7 @@
 
 ## Introduction
 
-- [Welcome to Luna402](README.md)
+- [Welcome to NECRONA](README.md)
 
 ## Getting Started
 
@@ -48,3 +48,4 @@
 - [Glossary](appendix/glossary.md)
 - [Resources](appendix/resources.md)
 - [Changelog](appendix/changelog.md)
+
