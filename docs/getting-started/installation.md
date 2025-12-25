@@ -6,7 +6,7 @@ Necorna is a closed-source, web-based platform. There is no installation require
 
 Necorna is available exclusively through our web application:
 
-1. **Visit the Website**: Navigate to [Necornalabs.tech](https://necroralabs.xyz)
+1. **Visit the Website**: Navigate to [Necroralabs.xyz](https://necroralabs.xyz)
 2. **Launch the App**: Click the "Launch App" button on the homepage
 3. **Start Chatting**: Begin your conversation with the AI oracle
 
@@ -129,6 +129,7 @@ Now that you understand how to access Necorna:
 3. Explore [Features](../features/ai-chat.md) to discover what Necorna can do
 
 ---
+
 
 
 
