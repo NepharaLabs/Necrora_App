@@ -1,4 +1,4 @@
-# Making Payments with Luna402
+# Making Payments with NECRORA
 
 This guide walks you through making your first autonomous payment and understanding the payment process.
 
@@ -14,7 +14,7 @@ First, connect a Web3 wallet:
 
 ### 2. Make a Request
 
-Tell Luna402 what you need:
+Tell NECRORA what you need:
 
 ```
 "Get me weather data for San Francisco"
@@ -22,7 +22,7 @@ Tell Luna402 what you need:
 
 ### 3. Review Payment
 
-Luna402 will show you:
+NECRORA will show you:
 
 ```
 Found: WeatherAPI Premium
@@ -43,7 +43,7 @@ Payment happens automatically:
 
 ### Step 1: Service Discovery
 
-When you make a request, Luna402:
+When you make a request, NECRORA:
 
 1. **Parses your intent**: Understands what service you need
 2. **Queries x402 Registry**: Finds compatible services
@@ -66,7 +66,7 @@ Checking:
 
 ### Step 3: Transaction Construction
 
-Luna402 builds the transaction:
+NECRORA builds the transaction:
 
 ```javascript
 {
@@ -103,7 +103,7 @@ Block: Waiting...
 
 With payment confirmed:
 
-1. Luna402 retries service request
+1. NECRORA retries service request
 2. Includes payment proof in headers
 3. Service validates payment
 4. Returns requested data
@@ -144,10 +144,10 @@ Note: Gas still paid in native token
 
 ### Automatic Chain Selection
 
-Luna402 automatically uses the correct chain:
+NECRORA automatically uses the correct chain:
 
 - Service specifies accepted chains
-- Luna402 selects cheapest/fastest
+- NECRORA selects cheapest/fastest
 - Prompts wallet to switch if needed
 
 ## Understanding Costs
@@ -192,7 +192,7 @@ Total:        0.00142 ETH
 ```
 User: "Get current Bitcoin price"
 
-Luna402:
+NECRORA:
   Service: CoinGecko API
   Cost: 0.0005 ETH
   Processing...
@@ -208,7 +208,7 @@ Luna402:
 ```
 User: "Generate an image of a sunset"
 
-Luna402:
+NECRORA:
   Service: Heurist Mesh
   Cost: 0.002 ETH
   Processing...
@@ -225,7 +225,7 @@ Luna402:
 ```
 User: "Pin this file to IPFS"
 
-Luna402:
+NECRORA:
   Service: Pinata
   Cost: 0.001 ETH
   File size: 2.5 MB
@@ -457,7 +457,7 @@ Export: [CSV] [JSON]
 1. Save transaction hash
 2. Contact service support
 3. Request refund if eligible
-4. Report to Luna402 support
+4. Report to NECRORA support
 
 ## Learn More
 
@@ -468,4 +468,5 @@ Export: [CSV] [JSON]
 
 ---
 
-**Need help?** Email [support@luna402xyz.xyz](mailto:support@luna402xyz.xyz)
+**Need help?** Email [support@NECRORAxyz.xyz](mailto:support@necroraxyz.xyz)
+
