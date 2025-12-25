@@ -14,7 +14,7 @@ const inter = Inter({
 });
 
 export const metadata = {
-  title: 'Luna402 - Autonomous AI agent for x402 payments',
+  title: 'NECRORA - Autonomous AI agent for x402 payments',
   description:
     'Autonomous AI agent that makes payments on your behalf using the x402 protocol. Access paid APIs and services without manual intervention.',
   keywords: [
