@@ -1,7 +1,7 @@
 {
-  "title": "Necrora Documentation",
-  "description": "Complete documentation for Necrora - AI-Powered Crypto Intelligence Platform",
-  "author": "Necrora Team",
+  "title": "Nephara Documentation",
+  "description": "Complete documentation for Nephara - AI-Powered Crypto Intelligence Platform",
+  "author": "Nephara Team",
   "language": "en",
   "gitbook": ">=3.2.0",
   "root": ".",
@@ -24,10 +24,10 @@
   ],
   "pluginsConfig": {
     "github": {
-      "url": "https://github.com/NecroraLabs/Necrora_App"
+      "url": "https://github.com/NepharaLabs/Nephara_App"
     },
     "edit-link": {
-      "base": "https://github.com/NecroraLabs/Necrora_App",
+      "base": "https://github.com/NepharaLabs/Nephara_App",
       "label": "Edit This Page"
     },
     "sharing": {
@@ -58,8 +58,75 @@
   "variables": {
     "appName": "Luna402",
     "version": "0.1.0",
-    "repository": "https://github.com/NecroraLabs/Necrora_App"
+    "repository": "https://github.com/NepharaLabs/Nephara_App"
   }
 }
+
+
+
+{
+  "title": "Nephara Documentation",
+  "description": "Complete documentation for Nephara - AI-Powered Crypto Intelligence Platform",
+  "author": "Nephara Team",
+  "language": "en",
+  "gitbook": ">=3.2.0",
+  "root": ".",
+  "structure": {
+    "readme": "README.md",
+    "summary": "SUMMARY.md"
+  },
+  "plugins": [
+    "theme-default",
+    "search",
+    "fontsettings",
+    "sharing",
+    "github",
+    "edit-link",
+    "copy-code-button",
+    "expandable-chapters",
+    "anchor-navigation-ex",
+    "prism",
+    "-highlight"
+  ],
+  "pluginsConfig": {
+    "github": {
+      "url": "https://github.com/NepharaLabs/Nephara_App"
+    },
+    "edit-link": {
+      "base": "https://github.com/NepharaLabs/Nephara_App",
+      "label": "Edit This Page"
+    },
+    "sharing": {
+      "facebook": false,
+      "twitter": true,
+      "google": false,
+      "linkedin": false,
+      "all": ["twitter"]
+    },
+    "fontsettings": {
+      "theme": "night",
+      "family": "sans",
+      "size": 2
+    },
+    "prism": {
+      "css": ["prism-themes/themes/prism-ghcolors.css"]
+    },
+    "theme-default": {
+      "showLevel": true,
+      "styles": {
+        "website": "styles/website.css"
+      }
+    }
+  },
+  "styles": {
+    "website": "styles/website.css"
+  },
+  "variables": {
+    "appName": "Luna402",
+    "version": "0.1.0",
+    "repository": "https://github.com/NepharaLabs/Nephara_App"
+  }
+}
+
 
 
