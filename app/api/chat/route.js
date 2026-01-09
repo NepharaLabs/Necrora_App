@@ -8,7 +8,7 @@ export async function POST(req) {
   const { messages } = await req.json();
 
   // System prompt loaded from environment variable for security
-  const systemPrompt = process.env.NECRORA_SYSTEM_PROMPT;
+  const systemPrompt = process.env.NEPHARA_SYSTEM_PROMPT;
 
   const result = streamText({
     model: google('gemini-2.5-flash'),
@@ -24,5 +24,6 @@ export async function POST(req) {
 
   return result.toUIMessageStreamResponse();
 }
+
 
 
